@@ -3,31 +3,14 @@ ul {
   display: flex;
   border: 1px solid red;
   padding: 0;
-  height: 300px;
   list-style: none;
   background-color: #e8e8e9;
   flex-wrap: wrap;
   align-content: flex-start;
 }
-li:first-of-type {
-  align-self: auto;
-  background-color: red;
-  color: black;
-}
-li:nth-child(1) {
-  order: 1;
-  flex: 2 1 0;
-}
-li:nth-child(3) {
-  order: 1;
-  flex: 1 1 0;
-}
 li {
-  padding: 4px;
-  flex: auto;
-  width: 100px;
+  flex: 1 1 auto; /*remember this is same as flex: 1 1 auto;*/
+  border: 2px solid red;
+  margin: 2em;
   background-color: #8cacea;
-  margin: 8px;
-  color: white;
-  font-size: 2rem;
 }
