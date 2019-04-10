@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%; /*setting this explicitly is important*/
+}
+body {
+  display: flex; /*flex superpowers activated! */
+  flex-direction: column; /*Stack the flex-items (main and footer elements) vertically NOT horizontally*/
+}
+main {
+  margin: 4px;
+  padding: 10px;
+  background-color: #fff;
+  color: #222;
+  border: 1px solid red;
+  flex: 1 0 auto; /*fill the available space*/
+  display: flex;
+  font-size: 0.9em;
+}
+footer {
+  margin: 4px;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid orange;
+  background-color: rgba(61, 100, 158, 0.9);
+  flex: 0 0 90px; /*don't grow or shrink - just stay at a height of 90px.*/
+}
+
+aside {
+  /* ...  */
+  border: 1px solid black;
+  display: flex; /*Now a flex-container too*/
+  flex-direction: column; /*stack icons vertically*/
+  /*since direction is changed, this works on the vertical direction*/
+  justify-content: space-around;
+  align-items: center; /*direction is changed! This affects the horizontal direction. Places Icons in the center*/
+  background-color: #f2f2f2; /*make me pretty*/
+}
+aside i.fa {
+  font-size: 0.9em; /*font size for the icons*/
+}
