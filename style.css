@@ -11,15 +11,15 @@ ul {
 }
 li:nth-child(1) {
   order: 1;
+  flex: 2 1 0;
 }
 li:nth-child(3) {
   order: 1;
+  flex: 1 1 0;
 }
 li {
   padding: 4px;
-  flex-grow: 1;
-  flex-basis: 10px;
-  width: 100px;
+  flex: auto;
   background-color: #8cacea;
   margin: 8px;
   color: white;
