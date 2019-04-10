@@ -1,9 +1,11 @@
 /*Make parent element a flex container*/
 ul {
+  display: flex;
   border: 1px solid red;
+  padding: 0;
   list-style: none;
-  display: flex; /*or inline-flex*/
-  flex-flow: row wrap;
+  background-color: #e8e8e9;
+  justify-content: center;
 }
 li {
   width: 100px;
