@@ -1,0 +1,19 @@
+/*Make parent element a flex container*/
+ul {
+  display: flex;
+  border: 1px solid red;
+  padding: 0;
+  list-style: none;
+  background-color: #e8e8e9;
+  align-content: flex-start;
+}
+li:nth-child(1) {
+  margin-right: auto;
+}
+li {
+  flex: 0 0 auto; /*remember this is same as flex: 1 1 auto;*/
+  margin: 8px;
+  background-color: #8cacea;
+  padding: 4px;
+  color: white;
+}
