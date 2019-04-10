@@ -3,14 +3,14 @@ ul {
   display: flex;
   border: 1px solid red;
   padding: 0;
+  height: 300px;
   list-style: none;
   background-color: #e8e8e9;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 li {
   width: 100px;
-  height: 100px;
   background-color: #8cacea;
   margin: 8px;
-  color: white;
 }
