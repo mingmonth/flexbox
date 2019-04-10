@@ -1,6 +1,7 @@
 /*Make parent element a flex container*/
 ul {
   display: flex;
+  flex-direction: column;
   border: 1px solid red;
   padding: 0;
   list-style: none;
