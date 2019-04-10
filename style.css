@@ -7,7 +7,12 @@ ul {
   list-style: none;
   background-color: #e8e8e9;
   flex-wrap: wrap;
-  align-content: stretch;
+  align-content: flex-start;
+}
+li:first-of-type {
+  align-self: auto;
+  background-color: red;
+  color: black;
 }
 li:nth-child(1) {
   order: 1;
@@ -20,7 +25,9 @@ li:nth-child(3) {
 li {
   padding: 4px;
   flex: auto;
+  width: 100px;
   background-color: #8cacea;
   margin: 8px;
   color: white;
+  font-size: 2rem;
 }
