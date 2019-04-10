@@ -3,8 +3,7 @@ ul {
   border: 1px solid red;
   list-style: none;
   display: flex; /*or inline-flex*/
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-flow: row wrap;
 }
 li {
   width: 100px;
