@@ -9,6 +9,12 @@ ul {
   flex-wrap: wrap;
   align-content: center;
 }
+li:nth-child(1) {
+  order: 1;
+}
+li:nth-child(3) {
+  order: 1;
+}
 li {
   width: 100px;
   background-color: #8cacea;
